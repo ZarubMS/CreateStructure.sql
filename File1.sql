@@ -1,1 +1,4 @@
-CREATE TABLE dbo.SKU (ID int identity, Code int PRIMARY KEY, Name varchar(max));
+CREATE TABLE dbo.SKU 
+    (
+        ID int IDENTITY, Code int PRIMARY KEY, Name AS 's'+ID
+       );
