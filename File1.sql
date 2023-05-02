@@ -1,0 +1,1 @@
+CREATE TABLE dbo.SKU (ID identity int, Code PRIMARY KEY, Name varchar(max));
